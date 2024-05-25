@@ -1,0 +1,12 @@
+my_list = [1,2,3]
+
+def multiply_by2(item):
+    return item * 2
+
+
+print(list(map(multiply_by2, my_list)))
+##Map Function inputs a function and then run iterations based on second argument
+##Creates an object at a memory location
+##To use, must convert back to list or desired data
+##Doesn't update variables, pure function
+print(my_list)
