@@ -1,0 +1,14 @@
+def multiply_by2(li):
+    new_list = []
+    for item in li:
+        new_list.append(item * 2)
+    return new_list
+
+# Get user input
+listt = input("Enter a list of numbers separated by spaces: ")
+
+# Convert input string to a list of integers
+list_of_numbers = [int(x) for x in listt.split()]
+
+# Call the function and print the result
+print(multiply_by2(list_of_numbers))
