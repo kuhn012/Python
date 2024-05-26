@@ -1,0 +1,9 @@
+#List, set, dictionary Comprehensions
+
+my_list = [char for char in 'hello']
+my_list2 = [2*int for int in range(0,100)]
+my_list3 = [(int**2) for int in range(0,100) if int%2==0]
+#for char in 'hello':
+#    my_list.append(char)
+
+print(my_list3)
